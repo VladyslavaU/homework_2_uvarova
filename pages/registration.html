@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration</title>
+    <link rel="stylesheet" href="../styles/style.css">
 </head>
-<body>
+<body class="container">
 <header>
     <h1>Registration</h1>
     <nav>
@@ -41,7 +42,7 @@
             </div>
             <div>
                 <label for="male">Male:</label>
-                <input type="radio" id="male" name="male">
+                <input id="male" name="male">
 
                 <label for="female">Female:</label>
                 <input type="radio" id="female" name="female">
@@ -68,8 +69,8 @@
                 <textarea id="bio" name="biography" rows="3" cols="100">Hello World!</textarea>
             </div>
             <div>
-                <input type="submit" value="Sign up">
-                <input type="reset" value="Clear fields">
+                <input class="btn" type="submit" value="Sign up">
+                <input class="btn" type="reset" value="Clear fields">
             </div>
         </fieldset>
     </form>
