@@ -40,3 +40,13 @@ h2 > a {
 .read-comments {
     color: gray;
 }
+
+.actual-article p::first-letter {
+    color: #782d20;
+    font-size: x-large;
+    font-family: "Baskerville Old Face", sans-serif;
+}
+
+.actual-article h1, h2 {
+    text-align: center;
+}
