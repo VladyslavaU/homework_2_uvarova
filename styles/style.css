@@ -56,10 +56,13 @@ ul {
     width: 50%;
 }
 
+li {
+    padding-left: 4%;
+}
+
 .main-list li {
     background: url("../assets/icons/list.png") no-repeat #dfd3bb;
     background-size: 20px;
-    padding-left: 4%;
     font-size: x-large;
 }
 
@@ -67,4 +70,10 @@ ul {
     background: url("../assets/icons/list-nested.png") no-repeat white;
     background-size: 10px;
     font-size: medium;
+}
+
+li.new::after {
+    content: url("../assets/icons/list-new.png");
+    margin-left: 5px;
+    display: inline-block;
 }
