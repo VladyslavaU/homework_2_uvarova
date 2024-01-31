@@ -8,3 +8,9 @@ html {
     padding: 20px;
     margin: 0 auto;
 }
+
+a {
+    font-family: cursive;
+    color: #4a251c;
+    background-color: #dfd3bb;
+}
