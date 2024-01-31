@@ -14,3 +14,29 @@ a {
     color: #4a251c;
     background-color: #dfd3bb;
 }
+
+.article-header-list {
+    font-family: "Baskerville Old Face", sans-serif;
+    color: #782d20;
+    border-bottom: solid;
+}
+
+h2 > a {
+    text-decoration: none;
+    font-family: "Baskerville Old Face", sans-serif;
+    color: #782d20;
+    border-bottom: solid;
+}
+
+.description {
+    background-color: #dfd3bb;
+}
+
+.read-more:hover {
+    text-decoration: none;
+    color: #782d20;
+}
+
+.read-comments {
+    color: gray;
+}
