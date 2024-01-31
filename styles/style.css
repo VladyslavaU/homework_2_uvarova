@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 html {
     background: url(../assets/images/b_2.png) top right no-repeat, url(../assets/images/b_1.jpg) bottom left repeat;
 }
@@ -87,4 +91,60 @@ li.new::after {
 
 .gallery img:hover {
     border: 5px solid transparent;
+}
+
+form {
+    margin-left: 0;
+    margin-top: 2%;
+    max-width: 500px;
+}
+
+fieldset {
+    margin-top: 2%;
+    width: 100%;
+    background-color: #dfd3bb;
+}
+
+select,
+input {
+    width: 100%;
+    padding: 10px 20px;
+}
+
+input[type="file"] {
+    padding: 0;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+}
+
+input[type="radio"]:hover,
+input[type="checkbox"]:hover {
+    outline-color: #4a251c;
+    outline-style: dotted;
+    border-radius: 50%;
+}
+
+input[type="text"] {
+    text-transform: capitalize;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px 20px;
+    resize: vertical;
+    min-height: 75px;
+    max-height: 33vh;
+}
+
+legend {
+    font-weight: bold;
+    transform: translateY(-10px);
+}
+
+.btn {
+    width: 100%;
+    padding: 1%;
 }
