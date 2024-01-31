@@ -1,0 +1,10 @@
+html {
+    background: url(../assets/images/b_2.png) top right no-repeat, url(../assets/images/b_1.jpg) bottom left repeat;
+}
+
+.container {
+    width: 100%;
+    max-width: 1280px;
+    padding: 20px;
+    margin: 0 auto;
+}
