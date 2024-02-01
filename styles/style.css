@@ -6,6 +6,16 @@ html {
     background: url(../assets/images/b_2.png) top right no-repeat, url(../assets/images/b_1.jpg) bottom left repeat;
 }
 
+header {
+    background-color: #dfd3bb;
+    padding: 1%;
+}
+
+.nav-sec {
+    padding-left: 3%;
+    padding-top: 1%;
+}
+
 .container {
     width: 100%;
     max-width: 1280px;
