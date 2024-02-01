@@ -100,7 +100,6 @@ li {
     font-size: x-large;
     background-position-y: 10%;
     background-position-x: 1%;
-
 }
 
 .main-list {
@@ -135,7 +134,7 @@ li.new::after {
 
 form {
     margin-left: 0;
-    margin-top: 2%;
+    margin-top: 1%;
     max-width: 500px;
 }
 
@@ -184,7 +183,26 @@ legend {
     transform: translateY(-10px);
 }
 
+fieldset > div {
+    padding: 1%;
+}
+
 .btn {
     width: 100%;
     padding: 1%;
+}
+
+address {
+    padding-top: 1%;
+    width: 100%;
+}
+
+address p {
+    text-align: right;
+    padding: 0.5%;
+}
+
+.contact {
+    background: url("../assets/images/map.jpg") right top no-repeat;
+    background-size: 55%;
 }
