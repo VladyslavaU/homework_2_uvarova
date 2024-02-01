@@ -6,53 +6,39 @@ html {
     background: url(../assets/images/b_2.png) top right no-repeat, url(../assets/images/b_1.jpg) bottom left repeat;
 }
 
-.container {
-    width: 100%;
-    max-width: 1280px;
-    padding: 20px;
-    margin: 0 auto;
+header {
+    background-color: #dfd3bb;
+    padding: 1%;
+}
+
+h1, h2 {
+    font-family: "Baskerville Old Face", sans-serif;
+    color: #782d20;
+    text-transform: capitalize;
+}
+
+h2 {
+    padding: 2% 2% 0 2%;
+    background-color: #dfd3bb;
+    border-bottom: solid;
+    margin-bottom: 0;
+}
+
+p {
+    padding: 2%;
+    margin: 0;
+    background-color: #dfd3bb;
 }
 
 a {
     font-family: cursive;
     color: #4a251c;
-    background-color: #dfd3bb;
 }
 
-.article-header-list {
-    font-family: "Baskerville Old Face", sans-serif;
+li {
     color: #782d20;
-    border-bottom: solid;
-}
-
-h2 > a {
-    text-decoration: none;
-    font-family: "Baskerville Old Face", sans-serif;
-    color: #782d20;
-    border-bottom: solid;
-}
-
-.description {
-    background-color: #dfd3bb;
-}
-
-.read-more:hover {
-    text-decoration: none;
-    color: #782d20;
-}
-
-.read-comments {
-    color: gray;
-}
-
-.actual-article p::first-letter {
-    color: #782d20;
-    font-size: x-large;
-    font-family: "Baskerville Old Face", sans-serif;
-}
-
-.actual-article h1, .actual-article h2 {
-    text-align: center;
+    text-transform: capitalize;
+    padding-left: 4%;
 }
 
 ul {
@@ -60,42 +46,9 @@ ul {
     width: 50%;
 }
 
-li {
-    padding-left: 4%;
-}
-
-.main-list li {
-    background: url("../assets/icons/list.png") no-repeat #dfd3bb;
-    background-size: 20px;
-    font-size: x-large;
-}
-
-.nested-list li {
-    background: url("../assets/icons/list-nested.png") no-repeat white;
-    background-size: 10px;
-    font-size: medium;
-}
-
-li.new::after {
-    content: url("../assets/icons/list-new.png");
-    margin-left: 5px;
-    display: inline-block;
-}
-
-.gallery img {
-    width: 200px;
-    border-style: solid;
-    border-width: 5px;
-    border-color: gold;
-}
-
-.gallery img:hover {
-    border: 5px solid transparent;
-}
-
 form {
     margin-left: 0;
-    margin-top: 2%;
+    margin-top: 1%;
     max-width: 500px;
 }
 
@@ -144,7 +97,120 @@ legend {
     transform: translateY(-10px);
 }
 
+fieldset > div {
+    padding: 1%;
+}
+
+address {
+    padding-top: 1%;
+    width: 100%;
+}
+
+address p {
+    text-align: right;
+    padding: 0.5%;
+}
+
 .btn {
     width: 100%;
     padding: 1%;
 }
+
+.container {
+    width: 100%;
+    max-width: 1280px;
+    padding: 20px;
+    margin: 0 auto;
+    color: #4a251c;
+}
+
+.nav-sec {
+    padding-left: 3%;
+    padding-top: 1%;
+}
+
+h2 > a {
+    text-decoration: none;
+    font-family: "Baskerville Old Face", sans-serif;
+}
+
+.actual-article h1, .actual-article h2 {
+    text-align: center;
+}
+
+.read-more:hover {
+    text-decoration: none;
+    color: #782d20;
+}
+
+.read-comments {
+    color: gray;
+}
+
+.actual-article p::first-letter {
+    color: #782d20;
+    font-size: x-large;
+    font-family: "Baskerville Old Face", sans-serif;
+}
+
+.main-list {
+    width: 100%;
+    margin-left: 0;
+}
+
+.main-list ul {
+    margin-top: 0;
+    padding: 0 0 1% 0;
+}
+
+.main-list li {
+    background: url("../assets/icons/list.png") no-repeat #dfd3bb;
+    background-size: 20px;
+    font-size: x-large;
+    background-position-y: 10%;
+    background-position-x: 1%;
+}
+
+li.new::after {
+    content: url("../assets/icons/list-new.png");
+    margin-left: 5px;
+    display: inline-block;
+}
+
+.nested-list li {
+    background: url("../assets/icons/list-nested.png") no-repeat white;
+    background-size: 10px;
+    font-size: medium;
+    background-position-y: center;
+    background-position-x: 1%;
+}
+
+.gallery {
+    display: block;
+}
+
+.gallery > div {
+    display: inline-block;
+}
+
+.gallery img {
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: gold;
+}
+
+.gallery img:hover {
+    border: 5px solid transparent;
+}
+
+.gallery a {
+    display: grid;
+}
+
+.contact {
+    background: url("../assets/images/map.jpg") right top no-repeat;
+    background-size: 55%;
+}
+
